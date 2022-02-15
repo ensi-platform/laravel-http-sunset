@@ -1,0 +1,17 @@
+{
+    "name": "ensi/laravel-http-sunset",
+    "description": "Applies a sunset header to your deprecated http-paths",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ensi\\LaravelHttpSunset\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Boris Sonkin",
+            "email": "sonkin@greensight.ru"
+        }
+    ],
+    "require": {}
+}
