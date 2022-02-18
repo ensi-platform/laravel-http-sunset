@@ -7,7 +7,7 @@ Applies a sunset header to your deprecated http-paths. PHP 7.3+ required
 ```
 cp config/sunset.php ../../../config/sunset.php`
 ```
-2. Register a global middleware in `app/Http/Kernel.php` so every request goes through it: :
+2. Register a global middleware in `app/Http/Kernel.php` so every request goes through it:
 ```
 protected $middleware = [
     SunsetMiddleware::class,
